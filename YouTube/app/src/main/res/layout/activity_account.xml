@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".view.AccountActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="Account"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:padding="10dp"
+        android:id="@+id/relativeLayout">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profileImage"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:civ_border_width="0.5dp"
+            app:civ_border_color="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/channelNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/profileImage"
+            android:text="Username"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/emailText"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_below="@id/channelNameText"
+            android:layout_toEndOf="@id/profileImage"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="10dp"
+        android:id="@+id/view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/center"
+        android:layout_below="@id/view"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:background="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your channel"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:drawableTint="#202020"
+            android:id="@+id/textChannel"
+            android:drawablePadding="20dp"
+            app:drawableStartCompat="@drawable/ic_baseline_history_24"/>
+
+        <TextView
+            android:background="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:id="@+id/textSettings"
+            android:textSize="18sp"
+            android:drawableTint="#202020"
+            android:padding="5dp"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            app:drawableStartCompat="@drawable/ic_baseline_videocam_24"/>
+        <TextView
+            android:background="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:id="@+id/textHelp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:drawableTint="#202020"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            app:drawableStartCompat="@drawable/ic_baseline_download_24"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

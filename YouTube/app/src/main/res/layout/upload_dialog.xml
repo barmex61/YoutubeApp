@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linearLayout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext_background"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView"
+                app:tint="#212121"
+                android:src="@drawable/ic_baseline_videocam_24"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imageView"
+                android:orientation="vertical"
+                android:id="@+id/uploadLayout"
+                android:layout_marginStart="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload video"
+                    android:textSize="17sp"
+                    android:textColor="#212121"
+                    android:fontFamily="sans-serif-condensed"
+                    android:includeFontPadding="false"
+                    android:id="@+id/textUploadVideo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share your content with large community"
+                    android:textSize="13sp"
+                    android:textColor="#212121"
+                    android:fontFamily="sans-serif"
+                    android:includeFontPadding="false"
+
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2"
+            android:background="@drawable/edittext_background"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView2"
+                app:tint="#212121"
+                android:src="@drawable/ic_baseline_settings_24"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imageView2"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make a post"
+                    android:textSize="17sp"
+                    android:textColor="#212121"
+                    android:fontFamily="sans-serif-condensed"
+                    android:includeFontPadding="false"
+                    android:id="@+id/textPublish"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share interesting and entertaining post to your subscribers"
+                    android:textSize="13sp"
+                    android:textColor="#212121"
+                    android:fontFamily="sans-serif"
+                    android:includeFontPadding="false"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout3"
+            android:background="@drawable/edittext_background"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView3"
+                app:tint="#212121"
+                android:src="@drawable/ic_baseline_account_circle_24"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/imageView3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textRelease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:includeFontPadding="false"
+                    android:text="Release a poll"
+                    android:textColor="#212121"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:includeFontPadding="false"
+                    android:text="Create a simple pool with your favourite questions"
+                    android:textColor="#212121"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

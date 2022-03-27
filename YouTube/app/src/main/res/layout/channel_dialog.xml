@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use youtube clone as .."
+            android:textSize="18sp"
+            android:layout_marginStart="3dp"
+            android:textColor="#212121"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/inputChannelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Channel name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#212121" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Description"
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:id="@+id/descriptionText"
+            android:textColor="#212121"
+            android:maxLines="5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By creating new channel accept our terms and condition"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="3dp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/createText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create channel"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryText"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:includeFontPadding="false"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please log in"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/text"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_google_sign"
+            android:text="Continue with google"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/white"
+            android:minWidth="233dp"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:includeFontPadding="false"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/layer"
+
+            />
+
+
+
+</LinearLayout>
