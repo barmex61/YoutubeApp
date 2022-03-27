@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1042570910744",
+    "project_id": "fir-1fbc1",
+    "storage_bucket": "fir-1fbc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042570910744:android:d902b2d7a5fbefc6f2776d",
+        "android_client_info": {
+          "package_name": "com.fatih.youtube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042570910744-0tpte6v2007cuofhab20ioobebltm9h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatih.youtube",
+            "certificate_hash": "3dc304a5123acf56e30f37141fd27d6a2dd31d24"
+          }
+        },
+        {
+          "client_id": "1042570910744-i0el5ubbt3o7ud7ptprdf27ibtbpn3ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIfzi6r6S_EqMD45Sqqpn_DBKsXNIsPJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042570910744-i0el5ubbt3o7ud7ptprdf27ibtbpn3ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
